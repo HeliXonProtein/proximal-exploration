@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FILE="landscape_params.zip"
-ID="1QvpHi-P2-hw2xMwZrpKvF-95kp4SaZWS"
+ID="1uy9zgtJ60Z83LCbm7Z_AoksAkmK4CcsC"
 URL="https://docs.google.com/uc?export=download&id=$ID"
 COOKIES="./cookies.txt"
 
