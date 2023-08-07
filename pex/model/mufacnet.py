@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 from . import torch_model, register_model
-from utils.seq_utils import sequences_to_mutation_sets
+from pex.utils.seq_utils import sequences_to_mutation_sets
 
 class MuFacNet(nn.Module):
     """

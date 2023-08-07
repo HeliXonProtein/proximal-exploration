@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from utils.seq_utils import sequences_to_tensor
+from pex.utils.seq_utils import sequences_to_tensor
 
 class TorchModel:
     def __init__(self, args, alphabet, net, **kwargs):

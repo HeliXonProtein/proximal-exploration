@@ -18,4 +18,4 @@ def get_model(args, **kwargs):
 
 for file_name in os.listdir(os.path.dirname(__file__)):
     if file_name.endswith('.py') and not file_name.startswith('_'):
-        importlib.import_module('model.' + file_name[:-3])
+        importlib.import_module('pex.model.' + file_name[:-3])
