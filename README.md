@@ -9,13 +9,14 @@ Based this local-search mechanism, a model architecture called Mutation Factoriz
 The dependencies can be set up using the following commands:
 
 ```bash
-conda create -n pex python=3.8 -y
+conda create -n pex python=3.10 -y
 conda activate pex
-conda install pytorch=1.10.2 cudatoolkit=11.3 -c pytorch -y
-conda install numpy=1.19 pandas=1.3 -y
+conda install pytorch pytorch-cuda -c pytorch -c nvidia -y
 conda install -c conda-forge tape_proteins=0.5 -y
-pip install sequence-models==1.2.0
+pip install -e .
 ```
+
+If you run into dependency version issues, try `pip install -r requirements.txt` before running `pip install -e .`.
 
 Clone this repository and download the oracle landscape models by the following commands:
 

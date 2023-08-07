@@ -1,10 +1,10 @@
 import numpy as np
-from landscape import get_landscape, task_collection, landscape_collection
-from algorithm import get_algorithm, algorithm_collection
-from model import get_model, model_collection
-from model.ensemble import ensemble_rules
-from utils.os_utils import get_arg_parser
-from utils.eval_utils import Runner
+from pex.landscape import get_landscape, task_collection, landscape_collection
+from pex.algorithm import get_algorithm, algorithm_collection
+from pex.model import get_model, model_collection
+from pex.model.ensemble import ensemble_rules
+from pex.utils.os_utils import get_arg_parser
+from pex.utils.eval_utils import Runner
 
 def get_args():
     parser = get_arg_parser()

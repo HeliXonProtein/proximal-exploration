@@ -14,4 +14,4 @@ def get_algorithm(args, model, alphabet, starting_sequence):
 
 for file_name in os.listdir(os.path.dirname(__file__)):
     if file_name.endswith('.py') and not file_name.startswith('_'):
-        importlib.import_module('algorithm.' + file_name[:-3])
+        importlib.import_module('pex.algorithm.' + file_name[:-3])

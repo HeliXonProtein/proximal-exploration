@@ -1,7 +1,7 @@
 import random
 import numpy as np
 from . import register_algorithm
-from utils.seq_utils import hamming_distance, random_mutation
+from pex.utils.seq_utils import hamming_distance, random_mutation
 
 @register_algorithm("pex")
 class ProximalExploration:
